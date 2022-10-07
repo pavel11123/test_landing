@@ -1,0 +1,69 @@
+<footer id="feedback" class="feedback__section">
+  <div class="container">
+    <div class="feedback__top d-fl-col">
+      <h2>Lorem ipsum dolor sit amet, consectetur.</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ea
+        aliquam neque nihil beatae saepe veritatis in officiis modi? Facilis,
+        iure? Voluptatibus placeat odit esse sed, debitis at! Sed, aut?
+      </p>
+    </div>
+
+    <div class="feedback__grid">
+      <div class="feedback__img d-fl">
+        <img src="/main/img/photo/prod.png" alt="levelup" />
+      </div>
+
+      <div class="feedback__time d-fl-col">
+        <h2 class="feedback__title">Lorem ipsum dolor sit, consectetur.</h2>
+        <p id="countdown">30:00</p>
+        <p class="feedback__text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ea
+          aliquam neque nihil beatae saepe veritatis in officiis modi? Facilis,
+          iure?
+        </p>
+      </div>
+
+      <div class="feedback__form d-fl-col">
+        <div class="feedback__form-top d-fl jc-sb">
+          <div class="feedback__old d-fl-col">
+            <span>Старая цена</span>
+            <span class="old__price">999руб</span>
+          </div>
+          <div class="feedback__new d-fl-col">
+            <span>Новая цена</span>
+            <span class="new__price">699руб</span>
+          </div>
+        </div>
+        <form name="feedback" class="form d-fl-col">
+          <div class="input-wrapper d-fl">
+            <input
+              type="text"
+              name="form__name"
+              id="form__name"
+              class="form__input"
+              placeholder=" "
+              required=""
+            />
+            <label class="form__label" for="form__name"> Name </label>
+            <span class="input__help">Коробко Павел</span>
+          </div>
+          <div class="input-wrapper d-fl">
+            <input
+              type="text"
+              name="form__phone"
+              id="form__phone"
+              class="form__input"
+              placeholder=" "
+              required=""
+              oninput="chanheHandler(this)"
+            />
+            <label class="form__label" for="form__phone"> Phone </label>
+            <span class="input__help">89507822966</span>
+          </div>
+          <button class="order-btn">Заказать</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>

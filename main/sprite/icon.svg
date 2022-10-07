@@ -1,0 +1,15 @@
+<svg dysplay="none"
+	xmlns="http://www.w3.org/2000/svg">
+	<symbol id="menu-btn" viewBox="0 0 35 26">
+		<path d="M0 1H35" stroke-width="2"/>
+		<path d="M0 13H35" stroke-width="2"/>
+		<path d="M0 25H35" stroke-width="2"/>
+	</symbol>
+
+	<symbol id="close-btn" viewBox="0 0 23 23">
+		<path d="M1 1L22 22" stroke-width="2"/>
+		<path d="M22 1L1 22" stroke-width="2"/>
+	</symbol>
+</svg>
+
+
